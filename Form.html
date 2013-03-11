@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>Formulir Pendaftaran</title>
+</head>
+<body>
+
+<h1>Formulir Pendaftaran Karang Taruna 41</h1>
+
+Biodata Diri<br>
+<form>
+	Nama Depan     : <input type="text" name="depan" /><br />
+	Nama Belakang : <input type="text" name="belakang" />
+</form> 
+
+<br>Username & Password</br>
+<form>
+	Username  : <input type="text" name="depan" /><br />	
+	Password   : <input type="password" name="pwd" />
+</form>  
+
+<br>Jenis Kelamin</br>
+<form>
+	<input type="radio" name="sex" value="male" /> Laki-laki<br/>
+	<input type="radio" name="sex" value="female" /> Perempuan
+</form>
+
+<br>Hobi</br>
+<form>
+	<input type="checkbox" name="hobi" value="Futsal" /> Futsal<br/>
+	<input type="checkbox" name="hobi" value="Berenang" /> Berenang</br>
+	<input type="checkbox" name="hobi" value="Basket" /> Basket</br>
+	<input type="checkbox" name="hobi" value="Membaca" /> Membaca</br>
+	<input type="checkbox" name="hobi" value="Menulis" /> Menulis
+</form>  
+
+<br>Status</br>
+<form>
+<select name="Status" size="1">
+<option values="1">Jomblo</option>
+<option values="2">Menikah</option>  
+<option values="3">Sudah Menikah</option>
+<option values="4">Janda</option>  
+<option values="5">Duda</option>
+ </select>
+</form>  
+
+Selesai
+<form name="input" action="html_form_action.asp" method="get">
+<input type="submit" value="Submit" />
+</form> 
+
+</body>
+</html>
